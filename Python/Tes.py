@@ -1,2 +1,1 @@
-data = int(input("Input :"))
-a = [data]
+print("HELP")
