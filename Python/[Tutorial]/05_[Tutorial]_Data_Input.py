@@ -1,0 +1,1 @@
+data_name = input("Input Name : ")

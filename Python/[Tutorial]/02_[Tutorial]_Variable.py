@@ -1,16 +1,16 @@
 a = 11
 b = 16
 c = 1120
-print("Nilai a = ",a)
-print("Nilai b = ",b)
-print("Nilai c = ",c)
+print("Value a = ",a)
+print("Value b = ",b)
+print("Value c = ",c)
 
-nilai_d = 20
-nilaie = 10.10
+value_d = 20
+valuef = 10.10
 k100 = 100000
 
 a = 112
-print("Nilai a = ",a)
+print("Value a = ",a)
 
 b = a
-print("Nilai b = ",b)
+print("Value b = ",b)
