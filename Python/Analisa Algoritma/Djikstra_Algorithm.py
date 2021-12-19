@@ -1,9 +1,12 @@
 import math
 
-print("======================================== \n\n")
-print("UNIVERSITAS ISLAM LAMONGAN 2021\n\n")
-print("PROGRAM ALGORITMA DIJKSTRA \n\n")
-print("======================================== \n\n")
+print("========================================")
+
+print("UNIVERSITAS ISLAM LAMONGAN 2021")
+
+print("PROGRAM ALGORITMA DIJKSTRA")
+
+print("========================================")
 
 ver = int(input("Masukkan Jumlah Vertex yang Anda inginkan : "))
 
