@@ -1,5 +1,4 @@
 import math
-from typing import List
 
 print("========================================")
 
@@ -23,7 +22,7 @@ for i in range(1, ver):
     path[i] = 0
     for j in range(1, ver):
         weight[i][j] = math.inf
-        
+
 for i in range(1, ver):
     for j in range(i+1,ver):
         weight[i][j] = int(input("Masukkan bobot ",i,"ke",j,":"))
