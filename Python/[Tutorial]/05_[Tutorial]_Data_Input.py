@@ -1,1 +1,11 @@
 data_name = input("Input Name : ")
+data_int = int(input("Input NIM : "))
+data_class = input("Input Class : ")
+data_float = float(input("Input Favorite Number : "))
+data_bool = bool(int(input("Input 0 for False or something for True : ")))
+
+print("NAME : ",data_name,", Type data : ",type(data_name))
+print("NIM : ",data_int,", Type data : ",type(data_int))
+print("CLASS : ",data_class,", Type data : ",type(data_class))
+print("Favorite Number : ",data_float,", Type data : ",type(data_float))
+print("True or False : ",data_bool,", Type data : ",type(data_bool))
