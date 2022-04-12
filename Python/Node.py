@@ -48,17 +48,17 @@ def hasPathSum(node, s):
 # Driver Code
 
 
-s = 14
-root = Node(8)
-root.left = Node(4)
-root.right = Node(12)
+s = 21
+root = Node(10)
+root.left = Node(8)
+root.right = Node(2)
 root.left.right = Node(5)
-root.left.left = Node(2)
-root.right.left = Node(14)
+root.left.left = Node(3)
+root.right.left = Node(2)
 
 if hasPathSum(root, s):
-	print ("There is a root-to-leaf path with sum %d"% (s)) 
+	print ("There is a root-to-leaf path with sum %d" % (s))
 else:
-	print ("There is no root-to-leaf path with sum %d"% (s)) 
+	print ("There is no root-to-leaf path with sum %d" % (s))
 
 # This code is contributed by Nikhil Kumar Singh(nickzuck_007)
